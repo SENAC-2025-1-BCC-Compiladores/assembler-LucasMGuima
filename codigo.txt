@@ -1,0 +1,15 @@
+; Comentário
+; x = a + b
+;
+
+.DATA
+A DB 50 ; A vale 50
+B DB 10	; B vale 10
+X DB ?	; X sem valor inicial
+
+.CODE
+.ORG 0	; Esta linha deve ser colocada começando na linha 0
+LDA A	; a
+ADD B	; b
+STA X	; x
+HLT
